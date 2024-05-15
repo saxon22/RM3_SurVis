@@ -8,21 +8,10 @@
         "publisher": "IEEE Access",
         "series": "1",
         "title": "Challenges and Issues in Sentiment Analysis: A Comprehensive Survey",
-        "type": "survey",
+        "type": "article",
         "url": "https://ieeexplore-ieee-org.nottingham.idm.oclc.org/stamp/stamp.jsp?tp",
         "volume": "11",
         "year": "2023"
-    },
-    "Ding2015Deep": {
-        "abstract": "We propose a deep learning method for eventdriven stock market prediction. First, events are extracted from news text, and represented as dense vectors, trained using a novel neural tensor network. Second, a deep convolutional neural network is used to model both short-term and long-term influences of events on stock price movements. Experimental results show that our model can achieve nearly 6% improvements on S&P 500 index prediction and individual stock prediction, respectively, compared to state-of-the-art baseline methods. In addition, market simulation results show that our system is more capable of making profits than previously reported systems trained on S&P 500 stock historical data.",
-        "author": "X. Ding, Y. Zhang, T. Liu and J. Duan",
-        "booktitle": "Twenty-fourth international joint conference on artificial intelligence",
-        "journal": "International Joint Conference on Artificial Intelligence",
-        "keywords": "Deep Learning, Event-driven, Stock Market Prediction, Simulation, Neural Network, Financial Markets",
-        "title": "Deep learning for event-driven stock prediction",
-        "type": "article @article {Ding2015Deep,",
-        "url": "http://www.wins.or.kr/DataPool/Board/4xxxx/455xx/45587/329.pdf",
-        "year": "2015"
     },
     "Dofinancialperformanceindicatorspredict10-Ktextsentiments": {
         "abstract": "In this study, we employ Natural Language Processing (NLP), a subdomain of artificial intelligence (AI), to predict the sentiments while analyzing 3729 annual 10-k financial reports of S&P 500 companies over the 2002\u20132019 time period. Our findings suggest that the firm\u2019s financial performance indicators help reduce negativity in the textual part of 10-ks. In contrast, we do not observe any significant association between the firm\u2019s financial performance indicators and 10-ks positivity. Our findings are robust to alternative econometric specifications and alternative measures of key variables. Our results contribute to the accounting and financial disclosure literature by indicating that corporate financial performance indicators can predict the tone of 10-k filings.",
@@ -51,6 +40,19 @@
         "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp",
         "volume": "8",
         "year": "2020"
+    },
+    "HopeWang": {
+        "abstract": "Accounting big baths are pervasive in practice. While big baths can improve the information environment and reduce information asymmetry, they can also degrade the information environment and obscure operating performance. In this study, we examine the role of management ethics. Specifically, we investigate whether managers\u2019 truthfulness (or conversely, deceptiveness) affects how investors perceive big baths. Using linguistic analysis on earnings-conference calls to measure managerial deception and employing a difference-in-differences research design with propensity-score matching, we find that information asymmetry is significantly higher following big baths taken by deceptive CEOs, compared with big baths taken by less deceptive CEOs.",
+        "author": "O. Hope and J. Wang",
+        "doi": "10.1016/j.aos.2018.02.004",
+        "journal": "Accounting, Organizations and Society Volume 70, October 2018, Pages 33-51",
+        "keywords": "Natural Language Processing, Deception, Linguistic Analysisis, Financial Reports",
+        "publisher": "Elsevier",
+        "title": "Management deception, big-bath accounting, and information asymmetry: Evidence from linguistic analysis",
+        "type": "article article",
+        "url": "https://doi.org/10.1016/j.aos.2018.02.004",
+        "volume": "70",
+        "year": "2018"
     },
     "ImpactofMD&Asentiment": {
         "abstract": " Purpose The goal of the study is to examine the effects of management discussion and analysis (MD&A) sentiment in public companies' annual reports on corporate investment incentives in developing economies. Design/methodology/approach The authors use sentiment analysis of MD&A texts based on Loughran and McDonald (2011) and combination of panel data regression, logit model and random forest. The text data consists of 3,511 annual reports of Chinese listed companies for the period from 2010 to 2019. Findings This paper provides empirical evidence of signaling theory that sentiment of annual reports and MD&A influences corporate decisions on both M&A and internal investments. The authors found that comparing to annual reports MD&A sentiment has more stable and significant explanatory and predictive power. Practical implications This paper confirms the importance of MD&A sentiment for corporate investment decision taking and provides practical techniques for analysts and researchers to study corporate investment incentives from the point of view of signaling theory. Originality/value The study aims to expand the domains of signaling theory and corporate investment valuation by including a broader range of data on companies' M&A and internal investments in developing economies. To explore the impact of MD&A sentiment on corporate investment, a state-of-the-art set of text mining and machine learning techniques is used. The authors' results confirm that MD&A has signaling effect and can get a positive market response. Furthermore, this study enhances the empirical evidence of overconfidence theory, i.e. optimistic management whose MD&A tend to positive overestimates the management's investments decision and also underestimate the potential risk to the firm.",
@@ -108,6 +110,19 @@
         "volume": "22",
         "year": "2018"
     },
+    "Tetlock": {
+        "abstract": "We examine whether a simple quantitative measure of language can be used to predict individual firms' accounting earnings and stock returns. Our three main findings are: (1) the fraction of negative words in firm-specific news stories forecasts low firm earnings; (2) firms' stock prices briefly underreact to the information embedded in negative words; and (3) the earnings and return predictability from negative words is largest for the stories that focus on fundamentals. Together these findings suggest that linguistic media content captures otherwise hard-to-quantify aspects of firms' fundamentals, which investors quickly incorporate into stock prices.",
+        "author": "P. Tetlock, M. Saa-Tsechansky, S. Macskassy",
+        "doi": "10.1111/j.1540-6261.2008.01362.x",
+        "journal": "The Journal of Finance (New York), Volume 63, Issue 3, Pages 1437-1467",
+        "keywords": "Linguistic Analysis, Sentiment Analysis, News Reports, Financial Markets, Prediction, Performance",
+        "series": "3",
+        "title": "More Than Words: Quantifying Language to Measure Firms' Fundamentals",
+        "type": "article article",
+        "url": "https://doi.org/10.1111/j.1540-6261.2008.01362.x",
+        "volume": "63",
+        "year": "2008"
+    },
     "Twittermoodpredictsthestockmarket": {
         "abstract": "Behavioral economics tells us that emotions can profoundly affect individual behavior and decision-making. Does this also apply to societies at large, i.e. can societies experience mood states that affect their collective decision making? By extension is the public mood correlated or even predictive of economic indicators? Here we investigate whether measurements of collective mood states derived from large-scale Twitter feeds are correlated to the value of the Dow Jones Industrial Average (DJIA) over time. We analyze the text content of daily Twitter feeds by two mood tracking tools, namely OpinionFinder that measures positive vs. negative mood and Google-Profile of Mood States (GPOMS) that measures mood in terms of 6 dimensions (Calm, Alert, Sure, Vital, Kind, and Happy). We cross-validate the resulting mood time series by comparing their ability to detect the public's response to the presidential election and Thanksgiving day in 2008. A Granger causality analysis and a Self-Organizing Fuzzy Neural Network are then used to investigate the hypothesis that public mood states, as measured by the OpinionFinder and GPOMS mood time series, are predictive of changes in DJIA closing values. Our results indicate that the accuracy of DJIA predictions can be significantly improved by the inclusion of specific public mood dimensions but not others. We find an accuracy of 86.7% in predicting the daily up and down changes in the closing values of the DJIA and a reduction of the Mean Average Percentage Error (MAPE) by more than 6%.",
         "author": "J. Bollen, H. Mao, X. Zeng",
@@ -121,19 +136,5 @@
         "url": "https://www.sciencedirect.com/science/article/abs/pii/S187775031100007X?via%3Dihub",
         "volume": "Volume 2",
         "year": "2011"
-    },
-    "UnveilingtheInfluenceofArtificialIntelligenceandMachineLearningonFinancialMarkets": {
-        "abstract": "This study explores the adoption and impact of artificial intelligence (AI) and machine learning (ML) in financial markets, utilizing a mixed-methods approach that includes a quantitative survey and a qualitative analysis of existing research papers, reports, and articles. The quantitative results demonstrate the growing adoption of AI and ML technologies in financial institutions and their most common applications, such as algorithmic trading, risk management, fraud detection, credit scoring, and customer service. Additionally, the qualitative analysis identifies key themes, including AI and ML adoption trends, challenges and barriers to adoption, the role of regulation, workforce transformation, and ethical and social considerations. The study highlights the need for financial professionals to adapt their skills and for organizations to address challenges, such as data privacy concerns, regulatory compliance, and ethical considerations. The research contributes to the knowledge on AI and ML in finance, helping policymakers, regulators, and professionals understand their benefits and challenges.",
-        "author": "M. Hajj and J. Hammoud",
-        "doi": "10.3390/jrfm16100434",
-        "journal": "Journal of Risk and Financial Management 2023, 16(10), 434",
-        "keywords": "Artificial Intelligence, Machine Learning, Financial Markets, AI Adoption, Ethical Considerations, Regulation",
-        "publisher": "MDPI",
-        "series": "10",
-        "title": "Unveiling the Influence of Artificial Intelligence and Machine Learning on Financial Markets: A Comprehensive Analysis of AI Applications in Trading, Risk Management, and Financial Operations",
-        "type": "article article",
-        "url": "https://www.mdpi.com/1911-8074/16/10/434",
-        "volume": "16",
-        "year": "2023"
     }
 }});
